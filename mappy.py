@@ -472,7 +472,7 @@ def create_altair_forecast_plot(historical_data, forecast_data, parameter):
 def load_model_for_parameter(parameter):
     """Load the pre-trained model for a specific water quality parameter"""
     parameter_model_paths = {
-        "Biochemical Oxygen Demand": r"models\Biochemical_Oxygen_Demand_water_quality_lstm_model.keras",
+        "Biochemical Oxygen Demand": r"models/Biochemical_Oxygen_Demand_water_quality_lstm_model.keras",
         "Dissolved Oxygen": r"models\Dissolved_Oxygen_water_quality_lstm_model.keras",
         "pH": r"models\pH_water_quality_lstm_model.keras",
         "Turbidity": r"models\Turbidity_water_quality_lstm_model.keras",
