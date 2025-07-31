@@ -473,14 +473,14 @@ def load_model_for_parameter(parameter):
     """Load the pre-trained model for a specific water quality parameter"""
     parameter_model_paths = {
         "Biochemical Oxygen Demand": r"models/Biochemical_Oxygen_Demand_water_quality_lstm_model.keras",
-        "Dissolved Oxygen": r"models\Dissolved_Oxygen_water_quality_lstm_model.keras",
-        "pH": r"models\pH_water_quality_lstm_model.keras",
-        "Turbidity": r"models\Turbidity_water_quality_lstm_model.keras",
-        "Nitrate": r"models\Nitrate_water_quality_lstm_model.keras",
-        "Fecal Coliform": r"models\Fecal_Coliform_water_quality_lstm_model.keras",
-        "Fecal Streptococci": r"models\Fecal_Streptococci_water_quality_lstm_model.keras",
-        "Total Coliform": r"models\Total_Coliform_water_quality_lstm_model.keras",
-        "Conductivity": r"models\Conductivity_water_quality_lstm_model.keras"
+        "Dissolved Oxygen": r"models/Dissolved_Oxygen_water_quality_lstm_model.keras",
+        "pH": r"models/pH_water_quality_lstm_model.keras",
+        "Turbidity": r"models/Turbidity_water_quality_lstm_model.keras",
+        "Nitrate": r"models/Nitrate_water_quality_lstm_model.keras",
+        "Fecal Coliform": r"models/Fecal_Coliform_water_quality_lstm_model.keras",
+        "Fecal Streptococci": r"models/Fecal_Streptococci_water_quality_lstm_model.keras",
+        "Total Coliform": r"models/Total_Coliform_water_quality_lstm_model.keras",
+        "Conductivity": r"models/Conductivity_water_quality_lstm_model.keras"
     }
     
     model_path = parameter_model_paths.get(parameter)
